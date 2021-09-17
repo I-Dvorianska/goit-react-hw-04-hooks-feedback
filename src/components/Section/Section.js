@@ -1,4 +1,4 @@
-import { Title } from "./FeedbackBtns.styled";
+import { Title } from "../FeedbackBtns/FeedbackBtns.styled";
 import PropTypes from "prop-types";
 
 const Section = ({ title, children }) => {

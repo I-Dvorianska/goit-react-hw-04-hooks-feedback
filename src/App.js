@@ -1,9 +1,9 @@
 import "./App.css";
 import { useState } from "react";
-import FeedbackBtns from "components/FeedbackBtns";
-import Statistics from "components/Statistics";
-import Section from "./components/Section";
-import NotificationMessage from "components/NotificationMessage";
+import FeedbackBtns from "components/FeedbackBtns/FeedbackBtns";
+import Statistics from "components/Statistics/Statistics";
+import Section from "./components/Section/Section";
+import NotificationMessage from "components/Notification/NotificationMessage";
 
 function App() {
   const [good, setGood] = useState(0);

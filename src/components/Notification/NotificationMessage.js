@@ -1,4 +1,4 @@
-import { Message } from "./Statistics.styled";
+import { Message } from "../Statistics/Statistics.styled";
 
 const NotificationMessage = ({ message }) => {
   return <Message>{message}</Message>;
