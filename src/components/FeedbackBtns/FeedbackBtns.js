@@ -18,7 +18,6 @@ const FeedbackBtns = ({ incrementGood, options }) => {
                   incrementGood(el);
                 }}
               >
-                {" "}
                 {el}
               </Button>
             </ListItem>
